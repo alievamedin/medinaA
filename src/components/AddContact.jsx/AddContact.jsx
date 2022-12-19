@@ -16,13 +16,13 @@ const [user, setUser]=useState({
 
 
     return (
-        <div>
+        <div >
             <input value={user.name} onChange={(e)=>setUser({ ...user, name:e.target.value})} type="text" placeholder='name'  />
             <input value={user.lastName} onChange={(e)=>setUser({ ...user, lastName:e.target.value})} type="text" placeholder='lastName'/>
             <input value={user.url} onChange={(e)=>setUser({ ...user, url:e.target.value})} type="text"  placeholder='url'/>
-            <button onClick={()=>postUser(user)} >Post</button>
+            <button onClick={ ()=>postUser(user)} >Post</button>
             {users?.map((item)=>(
-                <div key={item.id}>
+                <div  key={item.id}>
                     <h1>{item.name}</h1>
                     <h3>{item.lastName}</h3>
                     <img style={{width:"20%"}}  src={item.url} alt="" />

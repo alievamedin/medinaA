@@ -21,7 +21,7 @@ const EditContact = ({setShow, oneStudent, editStudent}) => {
 
     
     return (
-        <div>
+        <div >
              <input type="text" placeholder='name'  
           onChange={(e) => setUser({ ...user, img: e.target.value })} />
             <input type="text" placeholder='lastName'  
