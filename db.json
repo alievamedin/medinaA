@@ -1,16 +1,10 @@
 {
   "contacts": [
     {
-      "name": "rtret",
-      "lastName": "ntn",
-      "url": "netntn",
+      "name": "medina",
+      "lastName": "alievatalantovna",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMftLqime6o4LcT3x8U_GYNjaMpx7B2cjNh774LonLbw&s",
       "id": 1
-    },
-    {
-      "name": "rtret",
-      "lastName": "ntn",
-      "url": "netntn",
-      "id": 2
     }
   ]
 }

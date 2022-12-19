@@ -4,7 +4,7 @@ import { contactContext, useContact } from '../../ContactContext';
 
 const AddContact = () => {
     const {postUser, users, deleteUser}=useContact(contactContext);
-    // console.log(users);
+    console.log(users);
 const [user, setUser]=useState({
     name:"",
     lastName:"",
@@ -13,6 +13,7 @@ const [user, setUser]=useState({
 }
 
 )
+
 
     return (
         <div>
@@ -25,7 +26,7 @@ const [user, setUser]=useState({
                     <h1>{item.name}</h1>
                     <h3>{item.lastName}</h3>
                     <img style={{width:"20%"}}  src={item.url} alt="" />
-                    <button onClick={()=>deleteUser(item.id)} >Delete</button>
+                    <button onClick={()=>deleteUser(item.id)} >Edit</button>
                 </div>
             ))}
         </div>

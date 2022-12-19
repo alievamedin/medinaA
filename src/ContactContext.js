@@ -36,7 +36,7 @@ const ContactContext = ({children}) => {
         const values={
             postUser,
             users,
-            deleteUser
+            deleteUser,
             
         }
     return (
