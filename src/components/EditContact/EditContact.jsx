@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 const EditContact = ({setShow, oneStudent, editStudent}) => {
 
-    const handleClose = () => setShow(false);
+    const handleClose = () => setShow(false); 
     
   const [user, setUser] = useState(oneStudent);
   useEffect(() => {
